@@ -159,6 +159,13 @@ sudo certbot --nginx -d jenkins.duvindu.org
 
 
 
+..//jenkins setup + pipeline project
+..//SSH Agent plugin install
+
+
+sudo su jenkins
+pwd
+cd 
 
 ✅Jenkins + GitLab ...............................................................................................//
 🟢make keys as Jenkins user
