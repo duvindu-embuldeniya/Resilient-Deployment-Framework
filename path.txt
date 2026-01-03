@@ -1,7 +1,7 @@
 ✅Application Side..................................................................................................//
 s3 configuration
 django-environ setup
-D->F | Allowed Hosts (EC2 IP + app.duvindu.org + duvindu.org + www.duvindu.org, localhost, 127.0.0.1) 
+D->F | Allowed Hosts (EC2 IP + app.duvindu.org + jenkins.duvindu.org + duvindu.org + www.duvindu.org, localhost, 127.0.0.1) 
 pip gunicorn
 rq.txt creation in inside
 Docker File
