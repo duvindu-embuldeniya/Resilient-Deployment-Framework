@@ -227,7 +227,12 @@ chmod 600 ~/.ssh/authorized_keys
 
 
 ✅Docker Install to EC2.............................................................................................//
-🟢install via documentation steps
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+
 🟢give jenkins user to run docker commands permissions
 
 sudo usermod -aG docker jenkins
